@@ -1,0 +1,52 @@
+/* .background { */
+   /* background-color: green; */
+/* } */
+
+
+.navbar-brand {
+    margin: 0px 185px;
+}
+
+.navbar-collapse {
+    margin: 0px 590px;
+}
+
+.nav-item {
+    color: green;
+}
+
+
+form,
+.head,
+.media,
+.card-deck  {
+    margin: 50px 200px;
+}
+
+#exampleInputPassword1 {
+    height: 125px;
+}
+
+
+.head {
+    padding: 3px;
+    border-bottom: 3px solid grey;
+    color: darkgray;
+}
+
+.card2 {
+    height: 50%;
+    width: 50%;
+    border: 1px solid lightgrey;
+    border-radius: .25rem;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.fixed-bottom {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+
+}
