@@ -8,7 +8,7 @@
 }
 
 .navbar-collapse {
-    margin: 0px 590px;
+    margin: 0px 575px;
 }
 
 .nav-item {
@@ -30,7 +30,7 @@ form,
 
 .head {
     padding: 3px;
-    border-bottom: 3px solid grey;
+    border-bottom: 3px solid gold;
     color: darkgray;
 }
 
@@ -39,8 +39,8 @@ form,
     width: 50%;
     border: 1px solid lightgrey;
     border-radius: .25rem;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-left: 250px;
+    
 }
 
 .fixed-bottom {
@@ -48,5 +48,10 @@ form,
     padding: 10px;
     text-align: center;
     font-size: 10px;
+}
 
+.card-title {
+    padding: 3px;
+    text-align: center;
+    background-color: rgb(97, 224, 80);
 }
