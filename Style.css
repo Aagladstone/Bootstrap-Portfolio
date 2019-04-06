@@ -149,3 +149,142 @@ body, html {
       text-decoration: underline;   
   }
 
+  @media screen and (max-width: 980px) {
+    .top {
+        position: fixed;
+        
+    }
+    #connect {
+        padding-left: 435px;
+    }
+
+    
+
+    .container {
+        position: relative;
+        top: 225px;
+        width: 70%;
+        margin-top: -250px;
+        background-color: white;    
+        padding-bottom: 3px;
+    }
+
+    .cat {
+        margin-top: 2px;
+        font-size: 10px;
+    }
+    .name {
+        margin-bottom: 2px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #top {
+        position: fixed;
+    }
+
+    #connect {
+        padding-left: -35px;
+        margin-left: 90px;
+    }
+    #self {
+        width: 200px;
+        height: auto;
+    }
+    .container {
+        position: relative;
+        top: 175px;
+        width: 650px;
+        margin-top: -200px;
+        background-color: white;    
+    }
+
+    
+    .content {
+        position: relative;
+    }
+
+    .cat {
+        /* margin-top: 2px; */
+        font-size: 15px;
+    }
+
+    footer {
+        padding: 15px;
+        background-color: grey;
+        position: fixed;
+        bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .top {
+    /* position: static; */
+    margin-left: -310px;
+    width: 100%;
+    padding: 0px, 0px, 15px, 85px;
+    /* padding: 25px; */
+    text-align: center;
+    font-size: 25px;
+    
+    }
+
+    #white2 {
+        /* position: relative; */
+        text-align: center;
+        padding-top: 45px;
+        
+        
+    }
+    #connect {
+        font-size: 20px;
+        padding: 20px;
+        margin-left: 190px;
+        padding-bottom: 10px;
+        
+    }
+   #self {
+       width: 500px;
+       height: auto;
+       margin-bottom: 10px;
+   }
+    .container {
+        position: relative;
+        top: 185px;
+        width: 525px;
+        margin-top: -155px;
+        margin-left: -250px;
+        /* margin-left: 10px; */
+        background-color: white;
+}
+
+#head {
+    font-size: 30px;
+}
+
+.cat {
+    margin-top: 1px;
+    font-size: 20px;
+}
+.name {
+    margin-bottom: 1px;
+}
+#nombre {
+    padding: 2px;
+}
+
+.submit {
+z-index: 4;
+}
+
+.pro1,
+.pro2,
+.pro3,
+.pro4,
+.pro5 {
+    width: 88%;
+}
+
+
+
+}
