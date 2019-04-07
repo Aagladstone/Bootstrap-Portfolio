@@ -196,6 +196,11 @@ body, html {
         margin-top: 0;
         margin-bottom: 1rem;
         margin-right: -140px;
+        margin-left: -175px;
+    }
+    
+    .card-body {
+        margin-left: -150px;
     }
 
     .card-deck .card {
