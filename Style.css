@@ -148,111 +148,179 @@ body, html {
   .repo-link {
       text-decoration: underline;   
   }
-
 @media screen and (max-width: 375px) {
-    .top {
-    /* position: static; */
-    margin-left: -310px;
-    width: 100%;
-    padding: 0px, 0px, 15px, 85px;
-    /* padding: 25px; */
-    text-align: center;
-    font-size: 25px;
-    
-    }
-    
     .navbar-brand {
-        margin: 0px 100px;
+        margin: 0px 95px;
     }
-
+    
+    .navbar-collapse {
+        margin: 0px 350px;
+    }
+    
+    .nav-item {
+        color: green;
+    }
+    
+    .navbar-nav {
+        width: 350px;
+    }
+    
+    
     form,
     .head,
     .media,
     .card-deck  {
-        margin: 7px 10px;
+        margin: 25px 200px;
     }
     
-
+    #about-head {
+        margin-top: 60px;
+    }
+    
+    .head {   
+        margin: 5px 200px;
+    }
+    #exampleInputPassword1 {
+        height: 125px;
+        padding-bottom: 90px;
+    }
+    #exampleInputMessage {
+        height: 125px;
+        padding-bottom: 90px;
+    }
+    .input {
+        margin-top: -475px; 
+    }
+    #emailInput {
+        margin: 0px -135px 0px -160px;
+    }
     .head {
         padding: 3px;
         border-bottom: 3px solid gold;
         color: darkgray;
-        margin: 93px 80px -15px 201px;
+        margin: 95px 80px -20px 80px;
     }
-
-    body, html {
-        height: 100%;
-        margin: 0px 0px 0px -70px;
+    #contactMe {
+        margin: 0px -10px 0px 0px;
     }
-
-    #white2 {
-        /* position: relative; */
-        text-align: center;
-        padding-top: 45px;
+    .mr-3 {
+        margin-top: 7.5px;
+        margin: 0px 0px 0px -130px;
     }
-
-    .media-body {
-        margin-top: 0;
-        margin-bottom: 1rem;
-        margin-right: -200px;
-        margin-left: -200px;
-    }
-
-    .card-deck .card {
-        margin-bottom: 15px;
-        margin: 0px -150px 0px -15px;
-    }
-    #connect {
-        font-size: 20px;
-        padding: 20px;
-        margin-left: 190px;
-        padding-bottom: 10px;
+    .card2 {
+        height: 50%;
+        width: 50%;
+        border: 1px solid lightgrey;
+        border-radius: .25rem;
+        margin-left: 250px;
         
     }
-   #self {
-       width: 500px;
-       height: auto;
-       margin-bottom: 10px;
-   }
-    .container {
-        position: relative;
-        top: 185px;
-        width: 525px;
-        margin-top: -155px;
-        margin-left: -250px;
-        /* margin-left: 10px; */
-        background-color: white;
-}
-
-#head {
-    font-size: 30px;
-}
-
-.cat {
-    margin-top: 1px;
-    font-size: 20px;
-}
-.name {
-    margin-bottom: 1px;
-}
-#nombre {
-    padding: 2px;
-}
-
-.submit {
-z-index: 4;
-}
-
-.pro1,
-.pro2,
-.pro3,
-.pro4,
-.pro5 {
-    width: 88%;
-}
-
-.card-text {
-    margin-right: 0px;
-}
-
+    .porthead {
+        margin: 0px 101px -1px 100px;
+        padding: 3px;
+        border-bottom: 3px solid gold;
+        color: darkgray;    
+    }
+    .fixed-bottom {
+        background-color: lightgray;
+        padding: 10px;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .card-title {
+    
+        text-align: center;
+        color: cornflowerblue;
+    }
+    
+    #doc-nav {
+        padding: 10px;
+    }
+     
+    .mr-3 {
+        margin-top: 7.5px;
+    }
+    
+    body, html {
+        height: 100%;
+      }
+    
+      .train-text {
+          margin-top: 135px;
+      }
+    /* 
+      .gify-text {
+          margin-top: 15px;
+      } */
+      
+      .parallax-blue1 {
+        /* The image used */
+        background-image: url("assets/images/dark-blue.png");
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    
+      .parallax-blue2 {
+        /* The image used */
+        background-image: url("assets/images/medium-blue2.png");
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    
+    
+      .parallax-blue3 {
+        /* The image used */
+        background-image: url("assets/images/light-blue3.png");
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    
+      /* .docs-card {
+          text-align: center;
+          margin-left: 550px;
+          background-color: none;
+      } */
+    
+      /* .who-card {
+          height: 279.6px;
+          width: 378.2px;
+      } */
+    
+      .card-body {
+          text-align: center;
+          margin: 0px -150px 0px -150px;
+      }
+      .port-title {
+          width:100%;
+      }
+      .repo-link {
+          text-decoration: underline;   
+      }
+      .media-body {
+        -ms-flex: 1;
+        flex: 1;
+        margin: 0px -60px 0px -65px;
+    }
 }

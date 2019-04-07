@@ -44,21 +44,21 @@
     <div class="media card-deck">
         <img class="align-self-start mr-3" src="assets/images/Index Photo.PNG" height="235px" width="235px">
           <div class="media-body">
-             <p>
+             <p class="media-body">
               Team-oriented Full-Stack Developer with a desire to grow my coding abilities and combine them 
               with my passion for building relationships in order to advance my leadership skills and career. 
               I am a Baylor graduate that possesses a strong work ethic and affection for teamwork looking to 
               apply myself in a community atmosphere where I can learn, but also become a leader of my own.               
              </p> 
                                    
-             <p>
+             <p class="media-body">
               Even though I would consider myself an introvert, I am a person that has a natural ability to
                bring people together and have proven that everywhere I’ve been. I’ve sharpened that ability
                even greater through being a manager in a fast-paced retail environment at HEB where I was
                once a partner of the year at my store. 
 
              </p>
-             <p>
+             <p class="media-body">
               Works extremely well in teams, and am very organized, and once I graduate from the Houston
               Coding Academy and receive my certificate in full stack web development; I will have experience
               in Node.js, JavaScript, MySQL, JQuery, reAct,  other JavaScript libraries, and frameworks.
@@ -76,7 +76,7 @@
 
      <div id="portfolio-head" style="height:1690px;background-color:white;font-size:17px">
 
-     <h1 class="head" id="portfolio-head">
+     <h1 class="head porthead" id="portfolio-head">
         <b> Portfolio </b>
 </h1>
 
@@ -146,10 +146,11 @@
     <div class="input">
 
         <h1 class="head" id="contact-head">
-                <b>Contact Me</b>
+                <b id="contactMe">Contact Me</b>
         </h1>
 
         <form>
+          <div id="emailInput">
                 <div class="form-group">
                         <label for="exampleInputEmail1"><b>Name</b></label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
@@ -161,11 +162,12 @@
                   
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1"><b>Enter Mesasge Here</b></label>
-                  <input type="Enter Message Here" class="form-control" id="exampleInputPassword1" placeholder="Enter Message Here">
+                  <label for="exampleInputMessage"><b>Enter Messasge Here</b></label>
+                  <input type="Enter Message Here" class="form-control" id="exampleInputMessage" placeholder="Enter Message Here">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+              </div>
+            </form>
 
 </div>
 
