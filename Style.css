@@ -185,7 +185,6 @@ body, html {
         margin: 0px 0px 0px -70px;
     }
 
-
     #white2 {
         /* position: relative; */
         text-align: center;
@@ -195,7 +194,8 @@ body, html {
     .media-body {
         margin-top: 0;
         margin-bottom: 1rem;
-        margin-right: -140px;
+        margin-right: -200px;
+        margin-left: -200px;
     }
 
     .card-deck .card {
