@@ -6,9 +6,36 @@
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/CSS_Reset.css"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="Style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    $(".about-nav").on("click", function() {
+
+$("html,body").animate({
+    scrollTop: $("#about-head").offset().top
+}, "slow");
+});
+
+$(".portfolio-nav").on("click", function() {
+
+$("html,body").animate({
+    scrollTop: $("#portfolio-head").offset().top
+}, "slow");
+});
+
+$(".contact-nav").on("click", function() {
+
+$("html,body").animate({
+    scrollTop: $("#contact-head").offset().top
+}, "slow");
+});
+
+$(".info-nav").on("click", function() {
+
+$("html,body").animate({
+    scrollTop: $("#info-head").offset().top
+}, "slow");
+});</script>
 </head>
 
 <body>
